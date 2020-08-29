@@ -33,9 +33,9 @@ spring:
 spring:
   datasource:
     platform: 
-    url: jdbc:postgresql://localhost:5432/mydb
-    username: 
-    password: 
+    url: jdbc:postgresql://localhost:5432/myDB
+    username: postgres
+    password: train123
   jpa:
    show-sql: true
    hibernate.ddl-auto: update
